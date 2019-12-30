@@ -18,6 +18,7 @@ html {
   /* ここから */
   header {
       background-color: gray;
+      height: 50px;
       
   }
   
@@ -28,6 +29,8 @@ html {
   }
   
   header li {
+    float: left;
+    padding: 15px;
   }
   
   header ul:after {
