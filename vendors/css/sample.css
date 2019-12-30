@@ -23,9 +23,13 @@ html {
   }
   
   header ul {
+    margin: 0;
+    padding: 0;
   }
   
   header ul a {
+    color: #fff;
+    text-decoration: none;
   }
   
   header li {
