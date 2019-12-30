@@ -31,9 +31,14 @@ html {
   header li {
     float: left;
     padding: 15px;
+      /* リスト先頭の黒丸を削除 */
+    list-style: none;
   }
   
   header ul:after {
+    content: "";
+    display: block;
+    clear: both;
   }
   /* ここまでがheader部分の実装 */
   
