@@ -72,22 +72,32 @@ html {
   
   /* ここから */
   .function {
+      background-color: lightgrey;
   }
+
+  .function h1 {
+    padding: 50px;
+}
   
   .function-images {
+    height: 400px;
+    display: table;
+    width: 70%;
+    margin: 0 auto;
   }
   
   .function-image {
+    display: table-cell;
   }
   /* ここまでがfunction部分の実装 */
   
   footer {
   /* footer部分の実装 */
-  background-color: #282834;
-  width: 100%;
-  height: 120px;
-  position: absolute;
-  bottom: 0;
+    background-color: #282834;
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
   }
   
   footer p {
